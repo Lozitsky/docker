@@ -1,7 +1,12 @@
 # Docker Memory Test
 ##### Docker Memory Test is a Java Application for test memory inside a Docker container
+#### After starting, the program consumes memory, simulating the work until it runs out.
 ## Installation
-##### Use Maven command to build a jar file and to create a docker image:
+Use [Docker hub](https://hub.docker.com/r/wmgpznj4/mem-test):
+```bash
+docker pull wmgpznj4/mem-test
+```
+##### Or use Maven command to build a jar file and to create a docker image:
 ```bash
 mvn clean package
 ```
