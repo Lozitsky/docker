@@ -1,0 +1,1 @@
+docker build -t java-centos-mem --force-rm=true .

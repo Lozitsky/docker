@@ -1,0 +1,1 @@
+docker build -t java-alpine-musl-mem --force-rm=true .
