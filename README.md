@@ -13,11 +13,11 @@ mvn clean package
 ## Usage
 ###### simple run image:
 ```bash
-docker run java-centos-mem
+docker run wmgpznj4/mem-test
 ```
 ###### or run with memory and CPUs limitations:
 ```bash
-docker run --memory=100m --memory-swap=100m --cpus 2 java-centos-mem
+docker run --memory=100m --memory-swap=100m --cpus 2 wmgpznj4/mem-test
 ```
 
 ###### Show how memory usage increases:
@@ -34,7 +34,7 @@ docker stats
 ###### type in bash:
 
 ```bash
-docker run --memory=100m --memory-swap=100m --cpus 2 java-centos-mem
+docker run --memory=100m --memory-swap=100m --cpus 2 wmgpznj4/mem-test
 ```
 ###### output:
 ```bash
